@@ -212,3 +212,7 @@ img {
   background-color: #1F2022;
   border: none;
 }
+
+.ui.cards{
+ margin-left: 1rem !important;
+}
