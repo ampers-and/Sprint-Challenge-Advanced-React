@@ -4,9 +4,9 @@ import { Card } from 'semantic-ui-react'
 
 export default function PlayerCard(props){
 
-    console.log(props);
+    // console.log(props);
     const player = props.player;
-    console.log(player);
+    // console.log(player);
 
     return(
         <Card>
