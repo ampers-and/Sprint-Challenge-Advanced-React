@@ -31,7 +31,7 @@ class App extends React.Component {
       <div className='App'>
         <NavBar />
         <h1 className='title'>
-          Sprint
+          Players
         </h1>
         <Card.Group>
           {this.state.players.map( player => (
