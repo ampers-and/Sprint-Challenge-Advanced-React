@@ -5,6 +5,7 @@ import './App.css';
 import {Card} from 'semantic-ui-react';
 import PlayerCard from './PlayerCard';
 import NavBar from './NavBar';
+import ResponsiveBar from './Chart';
 
 class App extends React.Component {
 
@@ -30,6 +31,11 @@ class App extends React.Component {
     return (
       <div className='App'>
         <NavBar />
+        <div className='chart-container'>
+                <h2>Players Ranked By Searches</h2>
+                <ResponsiveBar players={this.state.players} />
+        </div>
+
         <h1 className='title'>
           Players
         </h1>

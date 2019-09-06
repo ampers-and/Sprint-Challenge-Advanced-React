@@ -216,3 +216,15 @@ img {
 .ui.cards{
  margin-left: 1rem !important;
 }
+
+.chart-container{
+  height:400px;
+  padding:20px 0;
+  margin: 3rem;
+  background-color:#b6ced8 ;
+  border-radius:4px;
+}
+
+.chart-container h2{
+  margin:0;
+}
