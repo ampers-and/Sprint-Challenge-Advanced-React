@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Card} from 'semantic-ui-react';
 import PlayerCard from './PlayerCard';
+import NavBar from './NavBar';
 
 class App extends React.Component {
 
@@ -29,6 +30,7 @@ class App extends React.Component {
   render(){
     return (
       <div className='App'>
+        <NavBar />
         <h1 className='title'>
           Sprint
         </h1>
